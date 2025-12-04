@@ -24,8 +24,6 @@ if "cv_base64" not in st.session_state:
 # SIDEBAR
 # ---------------------------------------------------------
 st.sidebar.title("🔧 JobFit Copilot Settings")
-st.sidebar.write("Your webhook URL:")
-st.sidebar.code(WEBHOOK_URL)
 
 location = st.sidebar.text_input("Location")
 job_title = st.sidebar.text_input("Job Title")
@@ -43,7 +41,7 @@ if uploaded_cv:
 # MAIN CHAT INTERFACE
 # ---------------------------------------------------------
 st.title("JobFit Copilot 💼")
-st.write("Chat with the job-matching AI powered by n8n & Supabase.")
+st.write("Chat with Career-Coach AI powered by n8n & Supabase.")
 
 # Display chat history
 for msg in st.session_state.messages:
