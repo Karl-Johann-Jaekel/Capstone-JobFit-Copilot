@@ -5,14 +5,14 @@
 
 
 import langchain
-print("🔎 LangChain version:", langchain.__version__)
+#print("🔎 LangChain version:", langchain.__version__)
 import supabase
 
 print("🔎 Supabase version:",supabase.__version__)
 import importlib.metadata as metadata
 print("Langchain Community:", metadata.version("langchain-community"))
 import langchain_groq
-print("Langchain Groq:", langchain_groq.__version__)
+#print("Langchain Groq:", langchain_groq.__version__)
 # --- Core Types ---
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
@@ -117,7 +117,8 @@ rag_chain = (
 )
 
 # --- Ask a question ---
-query = "Find remote Python developer jobs in Germany"
-response = rag_chain.invoke(query)
-
-print("\n🧠 RAG Answer:\n", response)
+query = ""
+while query != "exit": 
+    query = input(" Enter your question about the job postings: ")
+    response = rag_chain.invoke(query)
+    print("\n🧠 RAG Answer:\n", response)
