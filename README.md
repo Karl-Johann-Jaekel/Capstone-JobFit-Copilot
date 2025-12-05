@@ -25,6 +25,14 @@ This project combines Data Engineering + Machine Learning + NLP + RAG + Frontend
 
 Use the requirements file in this repo to create a new environment.
 
+* python.exe -m pip install --upgrade pip
+
+python -m venv .venv
+.venv\Scripts\activate
+
+.venv löschen: Remove-Item -Recurse -Force .venv
+
+
 ```BASH
 make setup
 

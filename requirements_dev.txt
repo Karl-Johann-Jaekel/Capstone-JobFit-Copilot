@@ -1,4 +1,4 @@
-# Core DS stack
+#Core DS stack
 numpy<2
 pandas==2.2.2
 scikit-learn==1.5.0
@@ -7,36 +7,36 @@ matplotlib==3.8.4
 plotly==6.3.0
 jupyterlab==4.2.5
 
-# Utilities
+#Utilities
 tqdm>=4.66.0
 requests>=2.31.0
 python-dotenv>=1.0.0
 
-# LangChain ecosystem
-langchain>=0.3.0
-langchain-community==0.3.29
-langchain-google-genai>=1.0.5
-langchain-huggingface==0.3.1
-langchain-groq>=0.1.4
+#LangChain ecosystem
+langchain==0.3.7
+langchain-community==0.3.3
+langchain-huggingface==0.1.1
+langchain-groq==0.2.0
 langchainhub==0.1.21
 
-# Embeddings
+Embeddings
 sentence-transformers==2.6.1
 faiss-cpu==1.8.0 # compatible with numpy<2
 
-# LLMs / Google API
+#LLMs / Google API
 google-generativeai>=0.7.2
 
-# PDF + file
+#PDF + file
 pypdf==6.0.0
 
-# Dev tools
+#Dev tools
 pytest==7.4.0
 testbook==0.4.2
 parsenvy==3.0.2
 black==23.3.0
 nbdime==4.0.2
 
-# Supabase client
-supabase>=2.6.0
+#Supabase client
+supabase==2.8.0
 
+streamlit==1.52.0
