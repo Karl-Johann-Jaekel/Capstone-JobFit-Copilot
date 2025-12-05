@@ -1,3 +1,8 @@
+#🔎 LangChain version: 1.1.1
+#🔎 Supabase version: 2.4.3
+#Langchain Community: 0.2.14
+#Langchain Groq: 1.1.0
+#Streamlit, version 1.52.0
 # Core DS stack
 numpy<2
 pandas==2.2.2
@@ -13,11 +18,11 @@ requests>=2.31.0
 python-dotenv>=1.0.0
 
 # LangChain ecosystem
-langchain>=0.3.0
-langchain-community==0.3.29
+langchain==1.1.1
+langchain-community==0.2.14
 langchain-google-genai>=1.0.5
 langchain-huggingface==0.3.1
-langchain-groq>=0.1.4
+langchain-groq==1.1.0
 langchainhub==0.1.21
 
 # Embeddings
@@ -38,5 +43,6 @@ black==23.3.0
 nbdime==4.0.2
 
 # Supabase client
-supabase>=2.6.0
+supabase==2.4.3
 
+streamlit==1.52.0
